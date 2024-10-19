@@ -104,6 +104,47 @@ body{
     background-color: #007D32; 
 }
 
-
 /*Cuerpo*/
+.C1{
+    color: aliceblue;
+    background-color: #007D32;
+    width: auto;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    
+}
 
+.C2{
+    color: aliceblue;
+    background-color: #F0AC00;
+    width: auto;
+    padding-right: 20px;
+}
+
+.C3{
+    color: aliceblue;
+    background-color: #023E73; 
+    width: auto;
+    height: 484px;
+    padding: 10%;
+    padding-right: 20px;
+}
+
+.TexCen{
+    padding: 60px;
+    text-align: center; 
+    align-items: center;
+    height: auto;
+}
+
+.ImgEdit{
+    height: 484px;
+    width: auto;
+}
+
+.pEdit{
+    text-align: justify,center; 
+    display: inline-block;
+    vertical-align: top;
+
+}
