@@ -105,46 +105,29 @@ body{
 }
 
 /*Cuerpo*/
-.C1{
-    color: aliceblue;
+.EducationalOffers{
     background-color: #007D32;
-    width: auto;
-    padding-right: 20px;
-    padding-bottom: 70px;
-    
+    color: aliceblue;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 0.5%;
 }
 
-.C2{
-    color: aliceblue;
+.History{
     background-color: #F0AC00;
-    width: auto;
-    padding-right: 20px;
-}
-
-.C3{
     color: aliceblue;
-    background-color: #023E73; 
-    width: auto;
-    height: 484px;
-    padding: 10%;
-    padding-right: 20px;
+    text-align: center;
+    text-align: justify;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0.5%;
 }
-
-.TexCen{
-    padding: 60px;
-    text-align: center; 
-    align-items: center;
-    height: auto;
-}
-
-.ImgEdit{
-    height: 484px;
-    width: auto;
-}
-
-.pEdit{
-    text-align: justify,center; 
-    display: inline-block;
-    vertical-align: top;
-
+.MissionAndVision{
+    background-color: #023E73;
+    color: aliceblue;
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 0.5%;
 }
