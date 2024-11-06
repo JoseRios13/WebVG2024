@@ -105,12 +105,32 @@ body{
 }
 
 /*Cuerpo*/
+
+.Carrusel{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 0.5%;
+}
+
+ .carousel-control-prev, .carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+}
+
 .EducationalOffers{
     background-color: #007D32;
     color: aliceblue;
     text-align: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-bottom: 0.5%;
 }
 
@@ -121,7 +141,7 @@ body{
     text-align: justify;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }
 .MissionAndVision{
     background-color: #023E73;
@@ -129,5 +149,5 @@ body{
     text-align: left;
     padding-top: 4%;
     padding-bottom: 4%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }

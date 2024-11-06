@@ -49,63 +49,112 @@
     </header> <!-- Fin de cabeza de Página -->
 
     <!--------------------- Cuerpo ---------------------->
+    <!--------------------- Sección Carrusel ------------------------------>
+<section class="Carrusel">
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img\img01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img03.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img04.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img05.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img06.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img07.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img08.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img\img09.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</section>
+
     <!--------------------- Primera Sección ------------------------------>
     <!-- Para Desktop -->
-<section class="EducationalOffers">
-    <div class="container d-none d-lg-block">
-        <div class="row">
-                <div class="col-12"> <h1>Ofertas Educativas</h1></div>
-                <div class="col-lg-6">
+    <section class="EducationalOffers">
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Ofertas Educativas</h1>
+                </div>
+                <div class="col-md-6">
                     <div>
                         <h2>Turnos</h2>
                         <h5>Matutino 7:00 Am - 12:00 Pm</h5>
                         <h5>Vespertino 1:00 Pm - 5:00 Pm</h5>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div>
                         <h2>Modalidades</h2>
                         <h5>Educación Inicial</h5>
-                        <h5>Primara Regular</h5>
+                        <h5>Primaria Regular</h5>
                         <h5>Extra Edad</h5>
-                    </div> 
+                    </div>
                 </div>
+            </div>
         </div>
-    </div>
-    <!-- Para Teléfono -->   
-    <div class="container d-lg-none">
-        <div class="row">
-            <div class="col-12"> <h2>Ofertas Educativas</h2></div>
-            <div class="col-12">
-                <div>
-                    <h2>Turnos</h2>
+        <!-- Para Teléfono -->
+        <div class="container d-sm-none d-block">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Ofertas Educativas</h2>
+                </div>
+                <div class="col-12">
+                    <div>
+                        <h2>Turnos</h2>
                         <h5>Matutino 7:00 Am - 12:00 Pm</h5>
                         <h5>Vespertino 1:00 Pm - 5:00 Pm</h5>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div>
+                        <h2>Modalidades</h2>
+                        <h5>Educación Inicial</h5>
+                        <h5>Primaria Regular</h5>
+                        <h5>Extra Edad</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-12">
-                <div>
-                    <h2>Modalidades</h2>
-                        <h5>Educación Inicial</h5>
-                        <h5>Primara Regular</h5>
-                        <h5>Extra Edad</h5>
-                </div> 
-            </div>
         </div>
-    </div>
-</section>
+    </section>
+    
 <!--------------------- Segunda Sección ------------------------------>
 <section class="History">
-    <div class="container d-none d-lg-block">
+    <div class="container d-none d-md-block">
         <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="align-items-center">
                         <video width="480" height="270" controls controlslist="nodownload">
                           <source src="AgregarVideo" type="video/mp4">
                         </video>
                       </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div>
                         <p>La Escuela Pública Virgen de Guadalupe se construyó en 
                             el marco del programa Mejoramiento Urbano Habitacional
@@ -119,7 +168,7 @@
         </div>
     </div>
     <!-- Para Teléfono -->   
-    <div class="container d-lg-none">
+    <div class="container d-sm-none d-block">
         <div class="row">
             <div class="col-12">
                 <div class="align-items-center">
@@ -144,26 +193,26 @@
 </section>
 <!--------------------- Tercera Sección ------------------------------>
 <section class="MissionAndVision">
-    <div class="container d-none d-lg-block">
+    <div class="container d-none d-md-block">
         <div class="row">
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <div>
                         <h1 class="text-center">Visión</h1>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div>
                         <p>Ser un centro educativo líder en Managua,
                         formando estudiantes íntegros, con valores y
                         habilidades para construir positivamente a la sociedad.</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <div>
                         <h1 class="text-center">Misión</h1>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div>
                         <p>Educar integralmente a nuestros estudiantes, promoviendo valores 
                         cristianos, excelencia académica y comrpomiso social, guiados por el
@@ -173,7 +222,7 @@
         </div>
     </div>
     <!-- Para Teléfono -->   
-    <div class="container d-lg-none">
+    <div class="container d-sm-none d-block">
         <div class="row">
             <div class="col-12">
                 <div>
@@ -204,15 +253,15 @@
 </section>
 <!--------------------- Cuarta Sección ------------------------------>
 <section>
-    <div class="container d-none d-lg-block">
+    <div class="container d-none d-md-block">
         <div class="row">
                
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div>
                         
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div>
                         
                     </div> 
@@ -220,7 +269,7 @@
         </div>
     </div>
     <!-- Para Teléfono -->   
-    <div class="container d-lg-none">
+    <div class="container d-sm-none d-block">
         <div class="row">
 
             <div class="col-12">
